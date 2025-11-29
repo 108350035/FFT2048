@@ -1,8 +1,8 @@
 FFT 2048 設計
 
 #使用8個SRAM 與 4個ROM 進行設計 於180nm下實現  實現混合基(基4與基2)FFT設計
-
 版圖結果
+
 ![image](https://github.com/108350035/FFT2048/blob/main/FFT/APR.JPG)
 
 
