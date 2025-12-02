@@ -6,10 +6,10 @@ output reg [7:0] A_addr,B_addr,C_addr,D_addr);
 always@(*)
 begin
     if(mode == 2'b11) begin
-        A_addr = cnt[9:2];
-        B_addr = cnt[9:2];
-        C_addr = cnt[9:2];
-        D_addr = cnt[9:2];
+        A_addr = {cnt[1:0],cnt[3:2],cnt[5:4],cnt[7:6]};
+        B_addr = {cnt[1:0],cnt[3:2],cnt[5:4],cnt[7:6]};
+        C_addr = {cnt[1:0],cnt[3:2],cnt[5:4],cnt[7:6]};
+        D_addr = {cnt[1:0],cnt[3:2],cnt[5:4],cnt[7:6]};
     end
     else begin
     case(cnt[10:8])
