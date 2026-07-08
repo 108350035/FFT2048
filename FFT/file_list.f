@@ -1,0 +1,5 @@
+ROM_Wp_130a_ssg0p81v0c.v
+ROM_W2p_130a_ssg0p81v0c.v
+ROM_W3p_130a_ssg0p81v0c.v
+R2_Wp_130a_ssg0p81v0c.v
+DPSRAM_170a_ssg0p81v0c.v
